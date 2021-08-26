@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.block {
+  position: absolute;
+  top: 80px;
+  width: 350px;
+  height: 15px;
+  background-color: #bbf0e8;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.block-1 {
+  position: relative;
+  width: 25px;
+  height: 15px;
+  background-color: #60ccd9;
+}
+
+.block-2 {
+  position: absolute;
+  top: 120px;
+  width: 350px;
+  height: 15px;
+  background-color: #c1e3ff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.block-3 {
+  position: relative;
+  width: 25px;
+  height: 15px;
+  background-color: #70bdf2;
+}
